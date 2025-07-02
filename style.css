@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* This prevents scrollbars if canvas is exactly window size */
+}
+
+canvas {
+  display: block; /* Removes extra space below canvas */
+}
